@@ -1,0 +1,17 @@
+{
+  "name": "Hello World Extension",
+  "version": "1.0",
+  "description": "A simple Hello World Chrome Extension",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Hello World Extension"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",      // Needed to access the active tab
+    "scripting"       // Needed to inject scripts into webpages
+  ]
+}

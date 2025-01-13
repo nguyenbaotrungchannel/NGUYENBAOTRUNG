@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hello World</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 20px;
+      }
+      button {
+        margin-top: 10px;
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>TRUNG K65 CNTT</h1>
+    <p>VNR D13E-725</p>
+
+    <!-- NEW: Fill Color button -->
+    <button id="fillColorBtn">Đổi màu</button>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en" style="min-width: 500px;">
+  <head>
+    <meta charset="utf-8" />
+    <title>Đọc bài báo VnExpress</title>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 10px;
+        font-family: sans-serif;
+        min-width: 500px; /* enforce min 500px width */
+      }
+      button {
+        padding: 6px 12px;
+        cursor: pointer;
+        margin-bottom: 10px;
+      }
+      #articleList {
+        list-style-type: disc;
+        padding-left: 18px;
+      }
+      #articleList li {
+        margin-bottom: 5px;
+      }
+      #articleList a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Đọc bài báo VnExpress</h1>
+    <button id="readBtn">Read</button>
+
+    <!-- A container (unordered list) to display the h3 headlines -->
+    <ul id="articleList"></ul>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
+
